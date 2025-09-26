@@ -147,7 +147,7 @@ const Features = () => {
                                     <button
                                         key={tab.id}
                                         onClick={() => setActiveTab(tab.id)}
-                                        className={`flex items-center space-x-2 px-6 sm:px-2 py-3 rounded-xl font-semibold transition-all duration-300 ${activeTab === tab.id
+                                        className={`flex items-center space-x-2 px-3 py-3 rounded-xl font-semibold transition-all duration-300 ${activeTab === tab.id
                                             ? 'bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg'
                                             : 'text-gray-600 hover:text-blue-600 hover:bg-blue-50'
                                             }`}

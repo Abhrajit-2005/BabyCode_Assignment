@@ -78,7 +78,7 @@ const Hero = () => {
                 <div className="grid lg:grid-cols-2 gap-2 items-center">
 
                     <div className={`text-center lg:text-left transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-                        <div className="inline-flex items-center space-x-4 bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 px-6 py-1 rounded-full text-sm font-semibold mb-8 border border-green-200 shadow-lg animate-bounce">
+                        <div className="inline-flex mt-10 items-center space-x-4 bg-gradient-to-r from-green-100 to-emerald-100 text-green-800 px-6 py-1 rounded-full text-sm font-semibold mb-8 border border-green-200 shadow-lg animate-bounce">
                             <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
                             <span>🎯 #1 IELTS Preparation Platform</span>
                         </div>
